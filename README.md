@@ -8,7 +8,7 @@
   # 
   ### **Sistem Analisis Data & Antisipasi Risiko**
   
-  *Platform Edukasi & Deteksi Dini Keamanan Siber Terintegrasi AI Vision & Threat Intelligence*
+  *Platform Edukasi & Deteksi Dini Keamanan Siber Terintegrasi & Threat Intelligence*
 
   <p align="center">
     <img src="src/logoui.webp" alt="Makara UI" width="22" style="vertical-align: middle;" />
