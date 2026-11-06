@@ -18,7 +18,7 @@
 
   <!-- Tombol Aksi Cepat / Live Demo -->
   <p align="center">
-    <a href="https://sadar-seven.vercel.app" target="_blank">
+    <a href="ristek.link/sadar" target="_blank">
       <img src="https://img.shields.io/badge/🌐_LIVE_DEMO-sadar--seven.vercel.app-00C7B7?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" />
     </a>
     <a href="#-panduan-instalasi-lokal-quick-start">
