@@ -1,3 +1,5 @@
+
+```markdown
 <div align="center">
 
   <!-- Logo Utama & UI Header -->
@@ -151,3 +153,104 @@ flowchart TD
     %% Alur 4: Edukasi & Game
     Gateway -->|4. Edukasi Interaktif| EduMod[Simulasi Skenario & SADAR Run 2D]:::coreNode
     EduMod --> Verdict4([🏆 Peningkatan Literasi & Statistik Komunitas]):::verdictNode
+
+```
+
+---
+
+## 🛠️ Teknologi & Stack
+
+| Kategori | Teknologi & Lencana |
+| --- | --- |
+| **Aplikasi Web** |      |
+| **API & Security Engine** |   [](https://1.1.1.1/family/) |
+
+---
+
+## ⚡ Menjalankan SADAR di Lokal
+
+### 📋 Prasyarat Sistem
+
+* [Git](https://git-scm.com/downloads)
+* [Node.js](https://nodejs.org/) versi **20.9 atau lebih baru** (npm disertakan bersama Node.js)
+
+### 📥 1. Clone & Instalasi Dependencies
+
+Buka terminal dan jalankan perintah berikut untuk mengunduh repository dan memasang seluruh paket yang dibutuhkan:
+
+```bash
+# Clone repository
+git clone [https://github.com/Rio3zN9G/Sistem-Analisis-Data-Antisipasi-Risiko.git](https://github.com/Rio3zN9G/Sistem-Analisis-Data-Antisipasi-Risiko.git)
+
+# Masuk ke direktori proyek
+cd Sistem-Analisis-Data-Antisipasi-Risiko
+
+# Install dependencies
+npm install
+
+```
+
+### 🔑 2. Konfigurasi API Environment (Opsional)
+
+Aplikasi dapat dijalankan tanpa API key, tetapi fitur yang bergantung pada layanan eksternal mungkin tidak aktif. Untuk mengaktifkannya, buat file `.env` di folder utama proyek dan isi hanya dengan key yang Anda miliki:
+
+```env
+GEMINI_API_KEY=
+GEMINI_MODEL=gemini-3-flash-preview
+OPENAI_API_KEY=
+GROQ_API_KEY=
+GOOGLE_SAFE_BROWSING_API_KEY=
+CEKREKENING_API_URL=
+CEKREKENING_API_KEY=
+
+```
+
+> ⚠️ **Catatan Keamanan:** Simpan key rahasia hanya di `.env` lokal atau pengaturan environment hosting. Jangan menaruh key di source code, mengirimkannya lewat chat, atau menggunakan prefix `NEXT_PUBLIC_` untuk key rahasia. Jangan pernah meng-commit file `.env`.
+
+### 🚀 3. Jalankan Mode Pengembang
+
+```bash
+npm run dev
+
+```
+
+Perintah tersebut menjalankan Next.js dan API Express secara bersamaan:
+
+* **Aplikasi Frontend (Next.js):** [http://localhost:3000](http://localhost:3000)
+* **API Server (Express):** [http://localhost:4000](http://localhost:4000) *(Health check: `http://localhost:4000/api/health`)*
+
+To stop the server, press `Ctrl + C` in the terminal.
+
+#### 📦 Production Build (Lokal)
+
+Jika ingin membuat build produksi secara lokal:
+
+```bash
+npm run build
+npm start
+
+```
+
+---
+
+## 🏦 Catatan Integrasi Data Cek Rekening
+
+Fitur cek rekening dalam konfigurasi bawaannya hanya menggunakan sejumlah record contoh untuk pengembangan dan laporan yang dikirim pengguna selama proses aplikasi berjalan. Oleh karena itu, fungsi ini digunakan untuk melihat indikasi awal dan **tidak 100% Valid & Akurat**.
+
+> 📌 **PENTING:** Mohon gunakan hasil SADAR sebagai **indikasi awal**, bukan bukti mutlak bahwa seseorang melakukan penipuan. Status "belum dilaporkan" juga tidak menjamin akun tersebut aman.
+> * Verifikasi mandiri melalui [CekRekening.id](https://cekrekening.id/periksa-rekening).
+> * Gunakan [AduanNomor.id](https://aduannomor.id) untuk kanal resmi pelaporan nomor telepon.
+> * **Jangan pernah menginstal file `.apk` tak dikenal, atau mengirimkan uang, OTP, PIN, maupun kata sandi hanya berdasarkan hasil pengecekan.**
+> 
+> 
+
+---
+
+## ⚖️ Catatan Penggunaan
+
+* Hasil analisis otomatis dapat keliru atau tidak lengkap; lakukan verifikasi tambahan sebelum mengambil keputusan penting.
+* Jangan mengunggah data pribadi, bukti transaksi sensitif, atau tangkapan layar rahasia kecuali diperlukan dan Anda memahami layanan pihak ketiga yang digunakan.
+
+```
+
+```
