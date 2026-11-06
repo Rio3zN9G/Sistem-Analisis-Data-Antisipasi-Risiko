@@ -1,25 +1,24 @@
+<div align="center">
 
-  <!-- Logo Utama & UI Header -->
-  <a href="https://sadar-seven.vercel.app" target="_blank" rel="noopener noreferrer">
-    <img src="public/logo.png" alt="SADAR Logo" width="130" height="130" />
-  </a>
+  <!-- Logo Utama & Makara UI -->
+  <a href="https://sadar-seven.vercel.app" target="_blank">
+    <img src="public/logo.png" alt="SADAR Logo" width="125" height="125" />
+  </a>
 
-  # **SADAR**
-  ### **Sistem Analisis Data & Antisipasi Risiko**
+  # 
+  ### **Sistem Analisis Data & Antisipasi Risiko**
+  
+  *Platform Edukasi & Deteksi Dini Keamanan Siber Terintegrasi AI Vision & Threat Intelligence*
 
-  *Platform Edukasi & Deteksi Dini Keamanan Siber Terintegrasi AI Vision & Threat Intelligence*
+  <p align="center">
+    <img src="src/logoui.webp" alt="Makara UI" width="22" style="vertical-align: middle;" />
+    &nbsp;<b>Karya Tim "Apa Aja Lah" — Universitas Indonesia</b><br/>
+    <i>Mewujudkan Ruang Digital Indonesia yang Tangguh, Aman, dan Sadar Risiko</i>
+  </p>
 
-  <p align="center">
-    <img src="src/logoui.webp" alt="Makara UI" width="20" style="vertical-align: middle;" />
-    &nbsp;<b>Karya Tim "Apa Aja Lah" — Universitas Indonesia</b><br/>
-    <sub><i>Mewujudkan Ruang Digital Indonesia yang Tangguh, Aman, dan Sadar Risiko</i></sub>
-  </p>
-
-  <br/>
-
-  <!-- Tombol Aksi Cepat / Quick Navigation -->
-  <p align="center">
-    <a href="https://sadar-seven.vercel.app" target="_blank" rel="noopener noreferrer">
+  <!-- Tombol Aksi Cepat / Live Demo -->
+  <p align="center">
+  <a href="https://sadar-seven.vercel.app" target="_blank" rel="noopener noreferrer">
       <img src="https://img.shields.io/badge/🌐_LIVE_DEMO-sadar--seven.vercel.app-00C7B7?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" />
     </a>
     <a href="#-menjalankan-sadar-di-lokal">
@@ -28,18 +27,18 @@
     <a href="#-arsitektur--alur-kerja-sistem">
       <img src="https://img.shields.io/badge/🔄_ARSITEKTUR-System_Flow-6366F1?style=for-the-badge" alt="System Flow" />
     </a>
-  </p>
+  </p>
 
-  <!-- Lencana Tech Stack -->
-  <p align="center">
-    <img src="https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js" />
-    <img src="https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-    <img src="https://img.shields.io/badge/TypeScript_5.7-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-    <img src="https://img.shields.io/badge/Tailwind_CSS_3.4-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
-    <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white" alt="Framer Motion" />
-    <img src="https://img.shields.io/badge/Gemini_3_Flash_Preview-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Google Gemini" />
-    <img src="https://img.shields.io/badge/Safe_Browsing_v4-4285F4?style=flat-square&logo=googlechrome&logoColor=white" alt="Safe Browsing" />
-  </p>
+  <!-- Lencana Tech Stack -->
+  <p align="center">
+    <img src="https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js" />
+    <img src="https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+    <img src="https://img.shields.io/badge/TypeScript_5.7-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+    <img src="https://img.shields.io/badge/Tailwind_CSS_3.4-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+    <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white" alt="Framer Motion" />
+    <img src="https://img.shields.io/badge/Gemini_3_Flash_Preview-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Google Gemini" />
+    <img src="https://img.shields.io/badge/Safe_Browsing_v4-4285F4?style=flat-square&logo=googlechrome&logoColor=white" alt="Safe Browsing" />
+  </p>
 
 </div>
 
@@ -64,7 +63,7 @@ Platform **SADAR** dirancang, direkayasa, dan dikembangkan oleh tim mahasiswa **
 
 <div align="center">
 
-| <img src="src/logoui.webp" width="60" alt="UI Logo" /> | **Tim Pengembang:** `Apa Aja Lah`<br/>**Institusi:** Universitas Indonesia (UI)<br/>**Fokus Riset:** *AI-Driven Cyber Defense, Threat Intelligence & Public Digital Literacy* |
+| <img src="src/logoui.webp" /> | **Tim Pengembang:** `Apa Aja Lah`<br/>**Institusi:** Universitas Indonesia (UI)<br/>**Fokus Riset:** *AI-Driven Cyber Defense, Threat Intelligence & Public Digital Literacy* |
 | :---: | :--- |
 
 </div>
@@ -74,7 +73,7 @@ Platform **SADAR** dirancang, direkayasa, dan dikembangkan oleh tim mahasiswa **
 | Peran & Tanggung Jawab | Profil Pengembang | Fokus Rekayasa & Kontribusi Utama |
 | :--- | :--- | :--- |
 | **Team Leader**<br/>*Lead Full-Stack & AI Architecture* | **Ario Zulkaisi Nubli**<br/>*(Universitas Indonesia)* | • Orkestrasi **Google Gemini Vision OCR** & pipeline LLM fallback<br/>• Integrasi multi-engine **Safe Browsing v4**, Cloudflare DNS & URLhaus<br/>• Perancangan arsitektur **Next.js App Router**, server kustom & heuristik penipuan, & DevOps |
-| **Asisten Desain UI/UX** | **Aisyah Azka Salsabila**<br/>*(Universitas Indonesia)* | • Membantu perancangan desain visual & antarmuka sistem |
+| **Asisten Desain UI/UX** | **Aisyah Azka Salsabila**<br/>*(Universitas Indonesia)* | • Membantu perancangan desain visual |
 
 ---
 
@@ -86,7 +85,7 @@ Di tengah pesatnya transformasi digital di Indonesia, masyarakat menghadapi berb
 - 🔗 **Tautan *phishing* & *typosquatting*** yang meniru situs institusi resmi.
 - 💸 **Penipuan transaksi fiktif** melalui nomor E-Wallet prabayar dan rekening penampung.
 
-**SADAR (Sistem Analisis Data & Antisipasi Risiko)** hadir sebagai garda pertahanan pertama yang dapat diakses langsung di:  
+**SADAR (Sistem Analisis Data & Antisipasi Risiko)** hadir sebagai garda pertahanan pertama yang dapat diakses langsung di:
 👉 **[https://sadar-seven.vercel.app](https://sadar-seven.vercel.app)**
 
 Melalui pendekatan **Zero-Click Threat Analysis** dan **AI Vision**, SADAR memberdayakan pengguna untuk:
@@ -116,78 +115,71 @@ Diagram berikut memvisualisasikan bagaimana setiap modul di dalam **SADAR** memp
 
 ```mermaid
 flowchart TD
-    classDef userNode fill:#F59E0B,stroke:#D97706,stroke-width:2px,color:#000,font-weight:bold;
-    classDef coreNode fill:#1E293B,stroke:#38BDF8,stroke-width:2px,color:#FFF;
-    classDef aiNode fill:#312E81,stroke:#818CF8,stroke-width:2px,color:#FFF;
-    classDef verdictNode fill:#065F46,stroke:#34D399,stroke-width:2px,color:#FFF,font-weight:bold;
+    classDef userNode fill:#F59E0B,stroke:#D97706,stroke-width:2px,color:#000,font-weight:bold;
+    classDef coreNode fill:#1E293B,stroke:#38BDF8,stroke-width:2px,color:#FFF;
+    classDef aiNode fill:#312E81,stroke:#818CF8,stroke-width:2px,color:#FFF;
+    classDef verdictNode fill:#065F46,stroke:#34D399,stroke-width:2px,color:#FFF,font-weight:bold;
 
-    User([👤 Pengguna / Masyarakat]):::userNode --> Gateway{🛡️ Portal Utama SADAR}:::coreNode
+    User([👤 Pengguna / Masyarakat]):::userNode --> Gateway{🛡️ Portal Utama SADAR}:::coreNode
 
-    %% Alur 1: Analisis Pesan & Screenshot
-    Gateway -->|1. Teks / Screenshot| ChatMod[Modul Analisis Chat]:::coreNode
-    ChatMod --> HasImg{Berupa Gambar?}:::coreNode
-    HasImg -->|Ya| GeminiOCR[🤖 Gemini 3 Flash Vision OCR]:::aiNode
-    HasImg -->|Tidak| TextPipe[📝 Text Normalization Pipeline]:::coreNode
-    GeminiOCR & TextPipe --> EntityExt[Ekstraksi Entitas: URL, No. HP & File .APK]:::coreNode
-    EntityExt --> AIHeur[🧠 Evaluasi AI Multi-Lapis & Heuristik Psikologis]:::aiNode
-    AIHeur --> Verdict1([📊 Skor Risiko 0-100% + Rekomendasi Mitigasi]):::verdictNode
+    %% Alur 1: Analisis Pesan & Screenshot
+    Gateway -->|1. Teks / Screenshot| ChatMod[Modul Analisis Chat]:::coreNode
+    ChatMod --> HasImg{Berupa Gambar?}:::coreNode
+    HasImg -->|Ya| GeminiOCR[🤖 Gemini 3 Flash Vision OCR]:::aiNode
+    HasImg -->|Tidak| TextPipe[📝 Text Normalization Pipeline]:::coreNode
+    GeminiOCR & TextPipe --> EntityExt[Ekstraksi Entitas: URL, No. HP & File .APK]:::coreNode
+    EntityExt --> AIHeur[🧠 Evaluasi AI Multi-Lapis & Heuristik Psikologis]:::aiNode
+    AIHeur --> Verdict1([📊 Skor Risiko 0-100% + Rekomendasi Mitigasi]):::verdictNode
 
-    %% Alur 2: Cek E-Wallet & Rekening
-    Gateway -->|2. No. E-Wallet / Bank| FinMod[Modul Cek E-Wallet & Rekening]:::coreNode
-    FinMod --> NormPhone[Normalisasi Nomor & Deteksi Operator Seluler]:::coreNode
-    NormPhone --> MirrorDB[(🗄️ Data Contoh SADAR / API Mirror Opsional)]:::aiNode
-    MirrorDB --> Verdict2([📋 Status Hasil + Tautan Verifikasi Resmi]):::verdictNode
+    %% Alur 2: Cek E-Wallet & Rekening
+    Gateway -->|2. No. E-Wallet / Bank| FinMod[Modul Cek E-Wallet & Rekening]:::coreNode
+    FinMod --> NormPhone[Normalisasi Nomor & Deteksi Operator Seluler]:::coreNode
+    NormPhone --> MirrorDB[(🗄️ Data Contoh SADAR / API Mirror Opsional)]:::aiNode
+    MirrorDB --> Verdict2([📋 Status Hasil + Tautan Verifikasi Resmi]):::verdictNode
 
-    %% Alur 3: Pemindai Link
-    Gateway -->|3. Alamat URL| URLMod[Modul Pemindai Tautan]:::coreNode
-    URLMod --> CleanURL[Sanitasi & Dekonstruksi URL Pintar]:::coreNode
-    CleanURL --> GSB[Google Safe Browsing v4]:::aiNode
-    CleanURL --> CFDNS[Cloudflare 1.1.1.2 DNS]:::aiNode
-    CleanURL --> URLHaus[abuse.ch URLhaus Feed]:::aiNode
-    CleanURL --> AIIntel[AI Threat Heuristics]:::aiNode
-    GSB & CFDNS & URLHaus & AIIntel --> Verdict3([🔒 Vonis Aman / Berbahaya + Rincian Ancaman]):::verdictNode
+    %% Alur 3: Pemindai Link
+    Gateway -->|3. Alamat URL| URLMod[Modul Pemindai Tautan]:::coreNode
+    URLMod --> CleanURL[Sanitasi & Dekonstruksi URL Pintar]:::coreNode
+    CleanURL --> GSB[Google Safe Browsing v4]:::aiNode
+    CleanURL --> CFDNS[Cloudflare 1.1.1.2 DNS]:::aiNode
+    CleanURL --> URLHaus[abuse.ch URLhaus Feed]:::aiNode
+    CleanURL --> AIIntel[AI Threat Heuristics]:::aiNode
+    GSB & CFDNS & URLHaus & AIIntel --> Verdict3([🔒 Vonis Aman / Berbahaya + Rincian Ancaman]):::verdictNode
 
-    %% Alur 4: Edukasi & Game
-    Gateway -->|4. Edukasi Interaktif| EduMod[Simulasi Skenario & SADAR Run 2D]:::coreNode
-    EduMod --> Verdict4([🏆 Peningkatan Literasi & Statistik Komunitas]):::verdictNode
-
+    %% Alur 4: Edukasi & Game
+    Gateway -->|4. Edukasi Interaktif| EduMod[Simulasi Skenario & SADAR Run 2D]:::coreNode
+    EduMod --> Verdict4([🏆 Peningkatan Literasi & Statistik Komunitas]):::verdictNode
 ```
 
----
-
-## 🛠️ Teknologi & Stack
-
-| Kategori | Teknologi & Lencana |
-| --- | --- |
-| **Aplikasi Web** |      |
-| **API & Security Engine** |   [](https://1.1.1.1/family/) |
-
----
+## 🛠️ Teknologi
+ 
+    
+- **Aplikasi web:**  <img src="https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js" />
+    <img src="https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+    <img src="https://img.shields.io/badge/TypeScript_5.7-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+    <img src="https://img.shields.io/badge/Tailwind_CSS_3.4-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+    <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white" alt="Framer Motion" />
+- **API & Integrasi:** <img src="https://img.shields.io/badge/Gemini_3_Flash_Preview-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Google Gemini" />
+    <img src="https://img.shields.io/badge/Safe_Browsing_v4-4285F4?style=flat-square&logo=googlechrome&logoColor=white" alt="Safe Browsing" /> [![Cloudflare 1.1.1.2](https://img.shields.io/badge/Cloudflare-1.1.1.2_%7C_Security-F38020?style=flat-square&logo=cloudflare&logoColor=white)](https://1.1.1.1/family/)
 
 ## ⚡ Menjalankan SADAR di Lokal
 
-### 📋 Prasyarat Sistem
+### Prasyarat
 
-* [Git](https://git-scm.com/downloads)
-* [Node.js](https://nodejs.org/) versi **20.9 atau lebih baru** (npm disertakan bersama Node.js)
+- [Git](https://git-scm.com/downloads)
+- [Node.js](https://nodejs.org/) versi **20.9 atau lebih baru** (npm disertakan bersama Node.js)
 
-### 📥 1. Clone & Instalasi Dependencies
+### Clone dan instal dependency
 
-Buka terminal dan jalankan perintah berikut untuk mengunduh repository dan memasang seluruh paket yang dibutuhkan:
+Jalankan perintah berikut di terminal:
 
 ```bash
-# Clone repository
-git clone [https://github.com/Rio3zN9G/Sistem-Analisis-Data-Antisipasi-Risiko.git](https://github.com/Rio3zN9G/Sistem-Analisis-Data-Antisipasi-Risiko.git)
-
-# Masuk ke direktori proyek
+git clone https://github.com/Rio3zN9G/Sistem-Analisis-Data-Antisipasi-Risiko.git
 cd Sistem-Analisis-Data-Antisipasi-Risiko
-
-# Install dependencies
 npm install
-
 ```
 
-### 🔑 2. Konfigurasi API Environment (Opsional)
+### Konfigurasi API (opsional)
 
 Aplikasi dapat dijalankan tanpa API key, tetapi fitur yang bergantung pada layanan eksternal mungkin tidak aktif. Untuk mengaktifkannya, buat file `.env` di folder utama proyek dan isi hanya dengan key yang Anda miliki:
 
@@ -199,55 +191,25 @@ GROQ_API_KEY=
 GOOGLE_SAFE_BROWSING_API_KEY=
 CEKREKENING_API_URL=
 CEKREKENING_API_KEY=
-
 ```
 
-> ⚠️ **Catatan Keamanan:** Simpan key rahasia hanya di `.env` lokal atau pengaturan environment hosting. Jangan menaruh key di source code, mengirimkannya lewat chat, atau menggunakan prefix `NEXT_PUBLIC_` untuk key rahasia. Jangan pernah meng-commit file `.env`.
+Simpan key rahasia hanya di `.env` lokal atau pengaturan environment hosting. Jangan menaruh key di source code, mengirimkannya lewat chat, atau menggunakan prefix `NEXT_PUBLIC_` untuk key rahasia. Jangan commit file `.env`.
 
-### 🚀 3. Jalankan Mode Pengembang
+### Jalankan aplikasi
 
 ```bash
 npm run dev
-
 ```
 
-Perintah tersebut menjalankan Next.js dan API Express secara bersamaan:
+Perintah tersebut menjalankan Next.js dan API Express secara bersamaan. Buka **http://localhost:3000** untuk aplikasi. API Express berjalan pada **http://localhost:4000**; endpoint pemeriksaan kesehatannya adalah **http://localhost:4000/api/health**.
 
-* **Aplikasi Frontend (Next.js):** [http://localhost:3000](http://localhost:3000)
-* **API Server (Express):** [http://localhost:4000](http://localhost:4000) *(Health check: `http://localhost:4000/api/health`)*
+Untuk menghentikan server, tekan `Ctrl+C` di terminal. Jika ingin membuat build produksi lokal, jalankan `npm run build`; perintah `npm start` menjalankan server produksi setelah build selesai.
 
-To stop the server, press `Ctrl + C` in the terminal.
+## 🏦 Integrasi Data Cek Rekening
 
-#### 📦 Production Build (Lokal)
-
-Jika ingin membuat build produksi secara lokal:
-
-```bash
-npm run build
-npm start
-
-```
-
----
-
-## 🏦 Catatan Integrasi Data Cek Rekening
-
-Fitur cek rekening dalam konfigurasi bawaannya hanya menggunakan sejumlah record contoh untuk pengembangan dan laporan yang dikirim pengguna selama proses aplikasi berjalan. Oleh karena itu, fungsi ini digunakan untuk melihat indikasi awal dan **tidak 100% Valid & Akurat**.
-
-> 📌 **PENTING:** Mohon gunakan hasil SADAR sebagai **indikasi awal**, bukan bukti mutlak bahwa seseorang melakukan penipuan. Status "belum dilaporkan" juga tidak menjamin akun tersebut aman.
-> * Verifikasi mandiri melalui [CekRekening.id](https://cekrekening.id/periksa-rekening).
-> * Gunakan [AduanNomor.id](https://aduannomor.id) untuk kanal resmi pelaporan nomor telepon.
-> * **Jangan pernah menginstal file `.apk` tak dikenal, atau mengirimkan uang, OTP, PIN, maupun kata sandi hanya berdasarkan hasil pengecekan.**
-> 
-> 
-
----
+Fitur cek rekening dalam konfigurasi bawaannya hanya membuat layanan ini menggunakan sejumlah record contoh untuk pengembangan dan laporan yang dikirim pengguna selama proses aplikasi berjalan. Jadi fungsi ini di gunakan untuk melihat indikasi dan tidak 100% Valid & Akurat, mohon gunakan hasil SADAR sebagai **indikasi awal**, bukan bukti bahwa seseorang melakukan penipuan. Status “belum dilaporkan” juga tidak menjamin akun aman. Verifikasi mandiri melalui [CekRekening.id](https://cekrekening.id/periksa-rekening), dan gunakan [AduanNomor.id](https://aduannomor.id) untuk kanal pelaporan nomor telepon. Jangan mengirim uang, OTP, PIN, atau kata sandi hanya berdasarkan hasil pengecekan.
 
 ## ⚖️ Catatan Penggunaan
 
-* Hasil analisis otomatis dapat keliru atau tidak lengkap; lakukan verifikasi tambahan sebelum mengambil keputusan penting.
-* Jangan mengunggah data pribadi, bukti transaksi sensitif, atau tangkapan layar rahasia kecuali diperlukan dan Anda memahami layanan pihak ketiga yang digunakan.
-
-```
-
-```
+- Hasil analisis otomatis dapat keliru atau tidak lengkap; lakukan verifikasi tambahan sebelum mengambil keputusan.
+- Jangan mengunggah data pribadi, bukti transaksi, atau tangkapan layar sensitif kecuali diperlukan dan Anda memahami layanan pihak ketiga yang digunakan.
