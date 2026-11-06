@@ -160,7 +160,7 @@ flowchart TD
     <img src="https://img.shields.io/badge/Tailwind_CSS_3.4-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
     <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white" alt="Framer Motion" />
 - **API & Integrasi:** <img src="https://img.shields.io/badge/Gemini_3_Flash_Preview-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Google Gemini" />
-    <img src="https://img.shields.io/badge/Safe_Browsing_v4-4285F4?style=flat-square&logo=googlechrome&logoColor=white" alt="Safe Browsing" /> [![Cloudflare 1.1.1.1](https://img.shields.io/badge/Cloudflare-1.1.1.1_%2F_1.1.1.2-F38020?style=flat-square&logo=cloudflare&logoColor=white)](https://1.1.1.1) [![Cloudflare 1.1.1.2](https://img.shields.io/badge/Cloudflare-1.1.1.2_%7C_Security-F38020?style=flat-square&logo=cloudflare&logoColor=white)](https://1.1.1.1/family/)
+    <img src="https://img.shields.io/badge/Safe_Browsing_v4-4285F4?style=flat-square&logo=googlechrome&logoColor=white" alt="Safe Browsing" /> [![Cloudflare 1.1.1.2](https://img.shields.io/badge/Cloudflare-1.1.1.2_%7C_Security-F38020?style=flat-square&logo=cloudflare&logoColor=white)](https://1.1.1.1/family/)
 
 ## ⚡ Menjalankan SADAR di Lokal
 
