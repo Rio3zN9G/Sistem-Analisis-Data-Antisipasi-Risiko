@@ -152,10 +152,15 @@ flowchart TD
 ```
 
 ## 🛠️ Teknologi
-
-- **Aplikasi web:** Next.js 16, React 19, TypeScript, dan Tailwind CSS.
-- **API lokal:** Express.js; dijalankan terpisah dari Next.js saat pengembangan.
-- **Integrasi opsional:** provider AI, Google Safe Browsing, dan API mirror cek rekening.
+ 
+    
+- **Aplikasi web:**  <img src="https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js" />
+    <img src="https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+    <img src="https://img.shields.io/badge/TypeScript_5.7-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+    <img src="https://img.shields.io/badge/Tailwind_CSS_3.4-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+    <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white" alt="Framer Motion" />
+- **API & Integrasi:** <img src="https://img.shields.io/badge/Gemini_3_Flash_Preview-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Google Gemini" />
+    <img src="https://img.shields.io/badge/Safe_Browsing_v4-4285F4?style=flat-square&logo=googlechrome&logoColor=white" alt="Safe Browsing" /> 
 
 ## ⚡ Menjalankan SADAR di Lokal
 
