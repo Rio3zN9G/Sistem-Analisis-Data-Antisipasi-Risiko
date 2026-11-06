@@ -11,8 +11,7 @@
   *Platform Edukasi & Deteksi Dini Keamanan Siber Terintegrasi AI Vision & Threat Intelligence*
 
   <p align="center">
-    <img src="src/logoui.webp" alt="Makara UI" width="22" style="vertical-align: middle;" />
-    &nbsp;<b>Karya Tim "Apa Aja Lah" — Universitas Indonesia</b><br/>
+    &nbsp;<b>Karya Tim "Apa Aja Lah" — <img src="src/logoui.webp" alt="Makara UI" width="22" style="vertical-align: middle;" />Universitas Indonesia</b><br/>
     <i>Mewujudkan Ruang Digital Indonesia yang Tangguh, Aman, dan Sadar Risiko</i>
   </p>
 
