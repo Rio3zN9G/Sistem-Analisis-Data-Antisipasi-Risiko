@@ -200,17 +200,11 @@ Perintah tersebut menjalankan Next.js dan API Express secara bersamaan. Buka **h
 
 Untuk menghentikan server, tekan `Ctrl+C` di terminal. Jika ingin membuat build produksi lokal, jalankan `npm run build`; perintah `npm start` menjalankan server produksi setelah build selesai.
 
-## 🏦 Catatan Integrasi Data Cek Rekening
+## 🏦 Integrasi Data Cek Rekening
 
-Fitur cek rekening SADAR **bukan koneksi langsung ke database internal atau API resmi Komdigi**. Dalam konfigurasi bawaan, aplikasi menggunakan sejumlah record contoh untuk pengembangan dan laporan yang dikirim pengguna selama proses aplikasi berjalan. Record contoh bukan laporan resmi yang telah diverifikasi; ganti atau hapus sebelum penggunaan publik. Data laporan runtime disimpan di memori, sehingga tidak dijamin tetap ada setelah server dimulai ulang.
-
-Integrasi ke sumber eksternal hanya dilakukan jika pemilik proyek mengisi `CEKREKENING_API_URL` dan, bila diwajibkan oleh penyedia, `CEKREKENING_API_KEY` dengan endpoint yang memang berhak digunakan. Endpoint tersebut menerima jenis akun, penyedia, dan nomor akun yang sudah dinormalisasi. Label sumber internal SADAR atau kata “mirror” tidak membuktikan bahwa data berasal dari Komdigi. Pastikan ada izin, dasar penggunaan, perlindungan data, dan format API yang sesuai sebelum menghubungkan layanan apa pun; jangan menganggap data contoh atau hasil mirror sebagai data resmi Komdigi.
-
-Gunakan hasil SADAR sebagai **indikasi awal**, bukan bukti bahwa seseorang melakukan penipuan. Status “belum dilaporkan” juga tidak menjamin akun aman. Verifikasi mandiri melalui [CekRekening.id](https://cekrekening.id/periksa-rekening), dan gunakan [AduanNomor.id](https://aduannomor.id) untuk kanal pelaporan nomor telepon. Jangan mengirim uang, OTP, PIN, atau kata sandi hanya berdasarkan hasil pengecekan.
+Fitur cek rekening dalam konfigurasi bawaannya hanya membuat layanan ini menggunakan sejumlah record contoh untuk pengembangan dan laporan yang dikirim pengguna selama proses aplikasi berjalan. Jadi fungsi ini di gunakan untuk melihat indikasi dan tidak 100% Valid & Akurat, mohon gunakan hasil SADAR sebagai **indikasi awal**, bukan bukti bahwa seseorang melakukan penipuan. Status “belum dilaporkan” juga tidak menjamin akun aman. Verifikasi mandiri melalui [CekRekening.id](https://cekrekening.id/periksa-rekening), dan gunakan [AduanNomor.id](https://aduannomor.id) untuk kanal pelaporan nomor telepon. Jangan mengirim uang, OTP, PIN, atau kata sandi hanya berdasarkan hasil pengecekan.
 
 ## ⚖️ Catatan Penggunaan
 
 - Hasil analisis otomatis dapat keliru atau tidak lengkap; lakukan verifikasi tambahan sebelum mengambil keputusan.
 - Jangan mengunggah data pribadi, bukti transaksi, atau tangkapan layar sensitif kecuali diperlukan dan Anda memahami layanan pihak ketiga yang digunakan.
-- API key dan layanan pihak ketiga dapat memiliki biaya, batas kuota, serta ketentuan penggunaan masing-masing.
-- Repository ini tidak menyatakan afiliasi atau dukungan resmi dari Komdigi maupun penyedia layanan eksternal yang disebutkan.
