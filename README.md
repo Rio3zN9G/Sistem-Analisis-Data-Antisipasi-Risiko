@@ -59,7 +59,7 @@ Platform **SADAR** dirancang, direkayasa, dan dikembangkan oleh tim mahasiswa **
 
 <div align="center">
 
-| <img src="src/logoui.webp" /> | **Tim Pengembang:** `Apa Aja Lah`<br/>**Institusi:** Universitas Indonesia (UI)<br/>**Fokus Riset:** *AI-Driven Cyber Defense, Threat Intelligence & Public Digital Literacy* |
+| <img src="src/logoui.webp" /> | **Tim Pengembang:** `Apa Aja Lah`<br/>**Institusi:** Universitas Indonesia (UI)<br/> |
 | :---: | :--- |
 
 </div>
@@ -68,7 +68,7 @@ Platform **SADAR** dirancang, direkayasa, dan dikembangkan oleh tim mahasiswa **
 
 | Peran & Tanggung Jawab | Profil Pengembang | Fokus Rekayasa & Kontribusi Utama |
 | :--- | :--- | :--- |
-| **Team Leader**<br/>*Lead Full-Stack & AI Architecture* | **Ario Zulkaisi Nubli**<br/>*(Universitas Indonesia)* | • Orkestrasi **Google Gemini Vision OCR** & pipeline LLM fallback<br/>• Integrasi multi-engine **Safe Browsing v4**, Cloudflare DNS & URLhaus<br/>• Perancangan arsitektur **Next.js App Router**, server kustom & heuristik penipuan, & DevOps |
+| **Team Leader**<br/>*Lead Full-Stack & AI Architecture* | **Ario Zulkaisi Nubli**<br/>*(Universitas Indonesia)* | • Integrasi **API** & pipeline LLM fallback<br/>• Integrasi multi-engine **Safe Browsing v4**, Cloudflare DNS & URLhaus<br/>• Perancangan arsitektur **Next.js App Router**, server kustom & heuristik penipuan, & DevOps |
 | **Asisten Desain UI/UX** | **Aisyah Azka Salsabila**<br/>*(Universitas Indonesia)* | • Membantu perancangan desain visual |
 
 ---
