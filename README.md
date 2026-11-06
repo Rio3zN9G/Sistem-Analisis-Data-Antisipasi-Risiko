@@ -5,7 +5,7 @@
     <img src="public/logo.png" alt="SADAR Logo" width="125" height="125" />
   </a>
 
-  # 🛡️ SADAR
+  # 
   ### **Sistem Analisis Data & Antisipasi Risiko**
   
   *Platform Edukasi & Deteksi Dini Keamanan Siber Terintegrasi AI Vision & Threat Intelligence*
