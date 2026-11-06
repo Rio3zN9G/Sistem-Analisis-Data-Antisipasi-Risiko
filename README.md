@@ -51,7 +51,7 @@
 - [🚀 Fitur Utama](#-fitur-utama)
 - [🔄 Arsitektur & Alur Kerja Sistem](#-arsitektur--alur-kerja-sistem)
 - [🛠️ Teknologi](#-teknologi)
-- [⚡ Menjalankan SADAR di Lokal](#-menjalankan-sadar-di-lokal)
+- [⚡ Menjalankan SADAR di Lokal](##-menjalankan-sadar-di-lokal)
 - [🏦 Catatan Integrasi Data Cek Rekening](#-catatan-integrasi-data-cek-rekening)
 - [⚖️ Catatan Penggunaan](#-catatan-penggunaan)
 
