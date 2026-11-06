@@ -1,7 +1,4 @@
 
-```markdown
-<div align="center">
-
   <!-- Logo Utama & UI Header -->
   <a href="https://sadar-seven.vercel.app" target="_blank" rel="noopener noreferrer">
     <img src="public/logo.png" alt="SADAR Logo" width="130" height="130" />
