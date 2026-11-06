@@ -206,5 +206,3 @@ Fitur cek rekening SADAR dalam konfigurasi bawaannya hanya membuat aplikasi meng
 
 - Hasil analisis otomatis dapat keliru atau tidak lengkap; lakukan verifikasi tambahan sebelum mengambil keputusan.
 - Jangan mengunggah data pribadi, bukti transaksi, atau tangkapan layar sensitif kecuali diperlukan dan Anda memahami layanan pihak ketiga yang digunakan.
-- API key dan layanan pihak ketiga dapat memiliki biaya, batas kuota, serta ketentuan penggunaan masing-masing.
-- Repository ini tidak menyatakan afiliasi atau dukungan resmi dari Komdigi maupun penyedia layanan eksternal yang disebutkan.
