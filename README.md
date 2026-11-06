@@ -21,9 +21,6 @@
     <a href="https://ristek.link/sadar" target="_blank">
       <img src="https://img.shields.io/badge/🌐_LIVE_DEMO---ristek.link/sadar-00C7B7?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" />
     </a>
-    <a href="#-panduan-instalasi-lokal-quick-start">
-      <img src="https://img.shields.io/badge/⚡_DOKUMENTASI-Quick_Start-F59E0B?style=for-the-badge" alt="Quick Start" />
-    </a>
     <a href="#-arsitektur--alur-kerja-sistem">
       <img src="https://img.shields.io/badge/🔄_ARSITEKTUR-System_Flow-6366F1?style=for-the-badge" alt="System Flow" />
     </a>
@@ -50,7 +47,7 @@
 - [💡 Latar Belakang & Solusi SADAR](#-latar-belakang--solusi-sadar)
 - [🚀 Fitur Utama](#-fitur-utama)
 - [🔄 Arsitektur & Alur Kerja Sistem](#-arsitektur--alur-kerja-sistem)
-- [🛠️ Teknologi](#-teknologi)
+- [🛠️ Teknologi](#-teknologi) 
 - [⚡ Menjalankan SADAR di Lokal](#-menjalankan-sadar-di-lokal)
 - [🏦 Catatan Integrasi Data Cek Rekening](#-catatan-integrasi-data-cek-rekening)
 - [⚖️ Catatan Penggunaan](#-catatan-penggunaan)
@@ -151,7 +148,7 @@ flowchart TD
     EduMod --> Verdict4([🏆 Peningkatan Literasi & Statistik Komunitas]):::verdictNode
 ```
 
-## 🛠️Teknologi
+## 🛠️ Teknologi
 
 - **Aplikasi web:** <img src="https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js" />
     <img src="https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
