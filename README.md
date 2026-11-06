@@ -20,9 +20,6 @@
     <a href="https://ristek.link/sadar" target="_blank">
       <img src="https://img.shields.io/badge/🌐_LIVE_DEMO-.--ristek.link/sadar-00C7B7?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" />
     </a>
-    <a href="#-panduan-instalasi-lokal-quick-start">
-      <img src="https://img.shields.io/badge/⚡_DOKUMENTASI-Quick_Start-F59E0B?style=for-the-badge" alt="Quick Start" />
-    </a>
     <a href="#-arsitektur--alur-kerja-sistem">
       <img src="https://img.shields.io/badge/🔄_ARSITEKTUR-System_Flow-6366F1?style=for-the-badge" alt="System Flow" />
     </a>
