@@ -19,7 +19,7 @@
   <!-- Tombol Aksi Cepat / Live Demo -->
   <p align="center">
     <a href="https://ristek.link/sadar" target="_blank">
-      <img src="https://img.shields.io/badge/🌐_LIVE_DEMO--ristek.link/sadar-00C7B7?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" />
+      <img src="https://img.shields.io/badge/🌐_LIVE_DEMO---ristek.link/sadar-00C7B7?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" />
     </a>
     <a href="#-panduan-instalasi-lokal-quick-start">
       <img src="https://img.shields.io/badge/⚡_DOKUMENTASI-Quick_Start-F59E0B?style=for-the-badge" alt="Quick Start" />
