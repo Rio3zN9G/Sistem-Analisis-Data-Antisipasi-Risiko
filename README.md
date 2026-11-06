@@ -200,11 +200,7 @@ Untuk menghentikan server, tekan `Ctrl+C` di terminal. Jika ingin membuat build 
 
 ## 🏦 Catatan Integrasi Data Cek Rekening
 
-Fitur cek rekening SADAR **bukan koneksi langsung ke database internal atau API resmi Komdigi**. Dalam konfigurasi bawaan, aplikasi menggunakan sejumlah record contoh untuk pengembangan dan laporan yang dikirim pengguna selama proses aplikasi berjalan. Record contoh bukan laporan resmi yang telah diverifikasi; ganti atau hapus sebelum penggunaan publik. Data laporan runtime disimpan di memori, sehingga tidak dijamin tetap ada setelah server dimulai ulang.
-
-Integrasi ke sumber eksternal hanya dilakukan jika pemilik proyek mengisi `CEKREKENING_API_URL` dan, bila diwajibkan oleh penyedia, `CEKREKENING_API_KEY` dengan endpoint yang memang berhak digunakan. Endpoint tersebut menerima jenis akun, penyedia, dan nomor akun yang sudah dinormalisasi. Label sumber internal SADAR atau kata “mirror” tidak membuktikan bahwa data berasal dari Komdigi. Pastikan ada izin, dasar penggunaan, perlindungan data, dan format API yang sesuai sebelum menghubungkan layanan apa pun; jangan menganggap data contoh atau hasil mirror sebagai data resmi Komdigi.
-
-Gunakan hasil SADAR sebagai **indikasi awal**, bukan bukti bahwa seseorang melakukan penipuan. Status “belum dilaporkan” juga tidak menjamin akun aman. Verifikasi mandiri melalui [CekRekening.id](https://cekrekening.id/periksa-rekening), dan gunakan [AduanNomor.id](https://aduannomor.id) untuk kanal pelaporan nomor telepon. Jangan mengirim uang, OTP, PIN, atau kata sandi hanya berdasarkan hasil pengecekan.
+Fitur cek rekening SADAR dalam konfigurasi bawaannya hanya membuat aplikasi menggunakan sejumlah record contoh untuk pengembangan dan laporan yang dikirim pengguna selama proses aplikasi berjalan. Record contoh bukan laporan jadi tidak 100% akurat dan harap menggunakan hasil SADAR sebagai **indikasi awal**, bukan bukti bahwa seseorang melakukan penipuan. Status “belum dilaporkan” juga tidak menjamin akun aman. Verifikasi mandiri melalui [CekRekening.id](https://cekrekening.id/periksa-rekening), dan gunakan [AduanNomor.id](https://aduannomor.id) untuk kanal pelaporan nomor telepon. Jangan mengirim uang, OTP, PIN, atau kata sandi hanya berdasarkan hasil pengecekan.
 
 ## ⚖️ Catatan Penggunaan
 
