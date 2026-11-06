@@ -53,7 +53,6 @@
 - [🔄 Arsitektur & Alur Kerja Sistem](#-arsitektur--alur-kerja-sistem)
 - [🛠️ Ekosistem Teknologi (Tech Stack)](#-ekosistem-teknologi-tech-stack)
 - [⚡ Panduan Instalasi Lokal (Quick Start)](#-panduan-instalasi-lokal-quick-start)
-- [📦 Panduan Deployment Produksi (Vercel & cPanel)](#-panduan-deployment-produksi-vercel--cpanel)
 - [⚖️ Lisensi & Penafian (Disclaimer)](#-lisensi--penafian-disclaimer)
 
 ---
