@@ -5,7 +5,7 @@
     <img src="public/logo.png" alt="SADAR Logo" width="125" height="125" />
   </a>
 
-  # 
+  # 🛡️ SADAR
   ### **Sistem Analisis Data & Antisipasi Risiko**
   
   *Platform Edukasi & Deteksi Dini Keamanan Siber Terintegrasi AI Vision & Threat Intelligence*
@@ -18,8 +18,11 @@
 
   <!-- Tombol Aksi Cepat / Live Demo -->
   <p align="center">
-    <a href="https://ristek.link/sadar" target="_blank">
-      <img src="https://img.shields.io/badge/🌐_LIVE_DEMO---ristek.link/sadar-00C7B7?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" />
+    <a href="https://sadar-seven.vercel.app" target="_blank">
+      <img src="https://img.shields.io/badge/🌐_LIVE_DEMO-sadar--seven.vercel.app-00C7B7?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" />
+    </a>
+    <a href="#-panduan-instalasi-lokal-quick-start">
+      <img src="https://img.shields.io/badge/⚡_DOKUMENTASI-Quick_Start-F59E0B?style=for-the-badge" alt="Quick Start" />
     </a>
     <a href="#-arsitektur--alur-kerja-sistem">
       <img src="https://img.shields.io/badge/🔄_ARSITEKTUR-System_Flow-6366F1?style=for-the-badge" alt="System Flow" />
@@ -47,7 +50,7 @@
 - [💡 Latar Belakang & Solusi SADAR](#-latar-belakang--solusi-sadar)
 - [🚀 Fitur Utama](#-fitur-utama)
 - [🔄 Arsitektur & Alur Kerja Sistem](#-arsitektur--alur-kerja-sistem)
-- [🛠️ Teknologi](#-teknologi) 
+- [🛠️ Teknologi](#-teknologi)
 - [⚡ Menjalankan SADAR di Lokal](#-menjalankan-sadar-di-lokal)
 - [🏦 Catatan Integrasi Data Cek Rekening](#-catatan-integrasi-data-cek-rekening)
 - [⚖️ Catatan Penggunaan](#-catatan-penggunaan)
@@ -83,7 +86,7 @@ Di tengah pesatnya transformasi digital di Indonesia, masyarakat menghadapi berb
 - 💸 **Penipuan transaksi fiktif** melalui nomor E-Wallet prabayar dan rekening penampung.
 
 **SADAR (Sistem Analisis Data & Antisipasi Risiko)** hadir sebagai garda pertahanan pertama yang dapat diakses langsung di:
-👉 **[https://ristek.link/sadar](https://ristek.link/sadar)**
+👉 **[https://sadar-seven.vercel.app](https://sadar-seven.vercel.app)**
 
 Melalui pendekatan **Zero-Click Threat Analysis** dan **AI Vision**, SADAR memberdayakan pengguna untuk:
 1. **Mendeteksi manipulasi chat & tangkapan layar (screenshot)** secara otomatis sebelum terperdaya instruksi pelaku.
@@ -150,13 +153,9 @@ flowchart TD
 
 ## 🛠️ Teknologi
 
-- **Aplikasi web:** <img src="https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js" />
-    <img src="https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-    <img src="https://img.shields.io/badge/TypeScript_5.7-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-    <img src="https://img.shields.io/badge/Tailwind_CSS_3.4-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
-    <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white" alt="Framer Motion" />
-- **API & Integrasi:** <img src="https://img.shields.io/badge/Gemini_3_Flash_Preview-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Google Gemini" />
-    <img src="https://img.shields.io/badge/Safe_Browsing_v4-4285F4?style=flat-square&logo=googlechrome&logoColor=white" alt="Safe Browsing" /> [![Cloudflare 1.1.1.2](https://img.shields.io/badge/Cloudflare-1.1.1.2_%7C_Security-F38020?style=flat-square&logo=cloudflare&logoColor=white)](https://1.1.1.1/family/)
+- **Aplikasi web:** Next.js 16, React 19, TypeScript, dan Tailwind CSS.
+- **API lokal:** Express.js; dijalankan terpisah dari Next.js saat pengembangan.
+- **Integrasi opsional:** provider AI, Google Safe Browsing, dan API mirror cek rekening.
 
 ## ⚡ Menjalankan SADAR di Lokal
 
