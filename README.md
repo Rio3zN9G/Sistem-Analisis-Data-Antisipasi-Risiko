@@ -64,7 +64,7 @@ Platform **SADAR** dirancang, direkayasa, dan dikembangkan oleh tim mahasiswa **
 
 <div align="center">
 
-| <img src="https://upload.wikimedia.org/wikipedia/id/thumb/0/0f/Makara_of_Universitas_Indonesia.svg/240px-Makara_of_Universitas_Indonesia.svg.png" width="65" alt="UI Logo" /> | **Tim Pengembang:** `Apa Aja Lah`<br/>**Institusi:** Universitas Indonesia (UI)<br/>**Fokus Riset:** *AI-Driven Cyber Defense, Threat Intelligence & Public Digital Literacy* |
+| <img src="src/logoui.webp" /> | **Tim Pengembang:** `Apa Aja Lah`<br/>**Institusi:** Universitas Indonesia (UI)<br/>**Fokus Riset:** *AI-Driven Cyber Defense, Threat Intelligence & Public Digital Literacy* |
 | :---: | :--- |
 
 </div>
@@ -74,7 +74,7 @@ Platform **SADAR** dirancang, direkayasa, dan dikembangkan oleh tim mahasiswa **
 | Peran & Tanggung Jawab | Profil Pengembang | Fokus Rekayasa & Kontribusi Utama |
 | :--- | :--- | :--- |
 | **Team Leader**<br/>*Lead Full-Stack & AI Architecture* | **Ario Zulkaisi Nubli**<br/>*(Universitas Indonesia)* | • Orkestrasi **Google Gemini Vision OCR** & pipeline LLM fallback<br/>• Integrasi multi-engine **Safe Browsing v4**, Cloudflare DNS & URLhaus<br/>• Perancangan arsitektur **Next.js App Router**, server kustom & heuristik penipuan |
-| **Co-Creator**<br/>*Lead UI/UX & Interactive Engineering* | **Aisyah Azka Salsabila**<br/>*(Universitas Indonesia)* | • Perancangan desain sistem visual **3D Glassmorphism & CyberMesh**<br/>• Rekayasa interaktivitas **Framer Motion** & minigame edukatif **SADAR Run**<br/>• Pengembangan jembatan verifikasi rekening & *Interactive Scenario Learning* |
+| **Co-Creator**<br/>*Lead UI/UX & Interactive Engineering* | **Aisyah Azka Salsabila**<br/>*(Universitas Indonesia)* | • Asisten erancangan desain visual<br/><br/>•  |
 
 ---
 
