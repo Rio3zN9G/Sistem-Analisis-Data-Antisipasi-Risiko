@@ -160,8 +160,7 @@ flowchart TD
 ## ⚡ Menjalankan SADAR di Lokal
 
 ### Prasyarat
-- [![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)](https://git-scm.com/downloads)
-- [![Node.js 20.x+](https://img.shields.io/badge/Node.js_20.x%2B-339933?style=flat-square&logo=node.js&logoColor=white)](https://nodejs.org/) versi **20.9 atau lebih baru** (npm disertakan bersama Node.js)
+[![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)](https://git-scm.com/downloads)[![Node.js 20.x+](https://img.shields.io/badge/Node.js_20.x%2B-339933?style=flat-square&logo=node.js&logoColor=white)](https://nodejs.org/)
 
 ### Clone dan instal dependency
 
