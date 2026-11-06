@@ -11,14 +11,15 @@
   *Platform Edukasi & Deteksi Dini Keamanan Siber Terintegrasi AI Vision & Threat Intelligence*
 
   <p align="center">
+    
     &nbsp;<b>Karya Tim "Apa Aja Lah" — <img src="src/logoui.webp" alt="Makara UI" width="22" style="vertical-align: middle;" />Universitas Indonesia</b><br/>
     <i>Mewujudkan Ruang Digital Indonesia yang Tangguh, Aman, dan Sadar Risiko</i>
   </p>
 
   <!-- Tombol Aksi Cepat / Live Demo -->
   <p align="center">
-    <a href="https://sadar-seven.vercel.app" target="_blank">
-      <img src="https://img.shields.io/badge/🌐_LIVE_DEMO-sadar--seven.vercel.app-00C7B7?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" />
+    <a href="https://ristek.link/sadar" target="_blank">
+      <img src="https://img.shields.io/badge/🌐_LIVE_DEMO-.--ristek.link/sadar-00C7B7?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" />
     </a>
     <a href="#-panduan-instalasi-lokal-quick-start">
       <img src="https://img.shields.io/badge/⚡_DOKUMENTASI-Quick_Start-F59E0B?style=for-the-badge" alt="Quick Start" />
@@ -152,9 +153,13 @@ flowchart TD
 
 ## 🛠️ Teknologi
 
-- **Aplikasi web:** Next.js 16, React 19, TypeScript, dan Tailwind CSS.
-- **API lokal:** Express.js; dijalankan terpisah dari Next.js saat pengembangan.
-- **Integrasi opsional:** provider AI, Google Safe Browsing, dan API mirror cek rekening.
+- **Aplikasi web:** <img src="https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js" />
+    <img src="https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+    <img src="https://img.shields.io/badge/TypeScript_5.7-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+    <img src="https://img.shields.io/badge/Tailwind_CSS_3.4-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+    <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white" alt="Framer Motion" />
+- **API & Integrasi:** <img src="https://img.shields.io/badge/Gemini_3_Flash_Preview-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Google Gemini" />
+    <img src="https://img.shields.io/badge/Safe_Browsing_v4-4285F4?style=flat-square&logo=googlechrome&logoColor=white" alt="Safe Browsing" /> [![Cloudflare 1.1.1.2](https://img.shields.io/badge/Cloudflare-1.1.1.2_%7C_Security-F38020?style=flat-square&logo=cloudflare&logoColor=white)](https://1.1.1.1/family/)
 
 ## ⚡ Menjalankan SADAR di Lokal
 
