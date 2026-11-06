@@ -1,1 +1,0 @@
-# Sistem-Analisis-Data-Antisipasi-Risiko-
