@@ -31,14 +31,13 @@
 
   <!-- Lencana Tech Stack -->
   <p align="center">
-    <img src="https://img.shields.io/badge/Next.js_15+-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js" />
+    <img src="https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js" />
     <img src="https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
     <img src="https://img.shields.io/badge/TypeScript_5.7-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
     <img src="https://img.shields.io/badge/Tailwind_CSS_3.4-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
     <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white" alt="Framer Motion" />
-    <img src="https://img.shields.io/badge/Gemini_3_Flash_Vision-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Google Gemini" />
+    <img src="https://img.shields.io/badge/Gemini_3_Flash_Preview-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Google Gemini" />
     <img src="https://img.shields.io/badge/Safe_Browsing_v4-4285F4?style=flat-square&logo=googlechrome&logoColor=white" alt="Safe Browsing" />
-    <img src="https://img.shields.io/badge/Status-Production_Ready-10B981?style=flat-square" alt="Status" />
   </p>
 
 </div>
@@ -49,11 +48,12 @@
 
 - [👥 Profil Tim Pengembang (`Apa Aja Lah`)](#-profil-tim-pengembang)
 - [💡 Latar Belakang & Solusi SADAR](#-latar-belakang--solusi-sadar)
-- [🚀 Fitur Unggulan Kelas Enterprise](#-fitur-unggulan-kelas-enterprise)
+- [🚀 Fitur Utama](#-fitur-utama)
 - [🔄 Arsitektur & Alur Kerja Sistem](#-arsitektur--alur-kerja-sistem)
-- [🛠️ Ekosistem Teknologi (Tech Stack)](#-ekosistem-teknologi-tech-stack)
-- [⚡ Panduan Instalasi Lokal (Quick Start)](#-panduan-instalasi-lokal-quick-start)
-- [⚖️ Lisensi & Penafian (Disclaimer)](#-lisensi--penafian-disclaimer)
+- [🛠️ Teknologi](#-teknologi)
+- [⚡ Menjalankan SADAR di Lokal](#-menjalankan-sadar-di-lokal)
+- [🏦 Catatan Integrasi Data Cek Rekening](#-catatan-integrasi-data-cek-rekening)
+- [⚖️ Catatan Penggunaan](#-catatan-penggunaan)
 
 ---
 
@@ -72,14 +72,14 @@ Platform **SADAR** dirancang, direkayasa, dan dikembangkan oleh tim mahasiswa **
 
 | Peran & Tanggung Jawab | Profil Pengembang | Fokus Rekayasa & Kontribusi Utama |
 | :--- | :--- | :--- |
-| **Team Leader**<br/>*Lead Full-Stack & AI Architecture* | **Ario Zulkaisi Nubli**<br/>*(Universitas Indonesia)* | • Orkestrasi **Google Gemini Vision OCR** & pipeline LLM fallback<br/>• Integrasi multi-engine **Safe Browsing v4**, Cloudflare DNS & URLhaus<br/>• Perancangan arsitektur **Next.js App Router**, server kustom & heuristik penipuan |
-| **Co-Creator**<br/>*Lead UI/UX & Interactive Engineering* | **Aisyah Azka Salsabila**<br/>*(Universitas Indonesia)* | • Asisten erancangan desain visual<br/><br/>  |
+| **Team Leader**<br/>*Lead Full-Stack & AI Architecture* | **Ario Zulkaisi Nubli**<br/>*(Universitas Indonesia)* | • Orkestrasi **Google Gemini Vision OCR** & pipeline LLM fallback<br/>• Integrasi multi-engine **Safe Browsing v4**, Cloudflare DNS & URLhaus<br/>• Perancangan arsitektur **Next.js App Router**, server kustom & heuristik penipuan, & DevOps |
+| **Asisten Desain UI/UX** | **Aisyah Azka Salsabila**<br/>*(Universitas Indonesia)* | • Membantu perancangan desain visual |
 
 ---
 
 ## 💡 Latar Belakang & Solusi SADAR
 
-Di tengah pesatnya transformasi digital di Indonesia, kejahatan siber berbasis manipulasi psikologis (*social engineering*) meningkat secara eksponensial. Masyarakat kerap menjadi sasaran empuk modus-modus berbahaya seperti:
+Di tengah pesatnya transformasi digital di Indonesia, masyarakat menghadapi berbagai modus kejahatan siber berbasis manipulasi psikologis (*social engineering*), seperti:
 - 🚨 **Pencurian kode OTP perbankan** dengan taktik intimidasi atau darurat palsu.
 - 📦 **Penyebaran malware `.apk`** berkedok resi kurir paket, undangan pernikahan, atau surat tilang.
 - 🔗 **Tautan *phishing* & *typosquatting*** yang meniru situs institusi resmi.
@@ -91,21 +91,21 @@ Di tengah pesatnya transformasi digital di Indonesia, kejahatan siber berbasis m
 Melalui pendekatan **Zero-Click Threat Analysis** dan **AI Vision**, SADAR memberdayakan pengguna untuk:
 1. **Mendeteksi manipulasi chat & tangkapan layar (screenshot)** secara otomatis sebelum terperdaya instruksi pelaku.
 2. **Membedah tautan mencurigakan (URL)** di ruang isolasi tanpa harus membukanya di perangkat sendiri.
-3. **Melacak rekam jejak nomor E-Wallet & Rekening Bank** melalui basis data terintegrasi sebelum mentransfer dana.
+3. **Memeriksa indikasi laporan nomor E-Wallet & Rekening Bank** melalui data contoh/mirror, lalu memverifikasi hasilnya melalui kanal resmi sebelum bertransaksi.
 4. **Melatih reflek keamanan siber** lewat simulasi keputusan dunia nyata dan *arcade minigame* interaktif.
 
 ---
 
-## 🚀 Fitur Unggulan Kelas Enterprise
+## 🚀 Fitur Utama
 
 | Modul | Fitur Utama | Cara Kerja & Kapabilitas Teknis |
 | :---: | :--- | :--- |
-| 🧠 **01** | **AI Vision Chat & Screenshot Analyzer** | Mengekstrak teks dari tangkapan layar WhatsApp/Telegram/SMS menggunakan **Google Gemini 3 Flash Vision OCR** & `gpt-4o-mini`. Mendeteksi indikator urgensi palsu, ancaman pemblokiran, tautan tersembunyi, serta file berbahaya `.apk` lengkap dengan skor risiko `0–100%`. |
-| 🏦 **02** | **Cek E-Wallet & Rekening (Mirror Kominfo)** | Memvalidasi nomor **DANA, GoPay, OVO, ShopeePay, LinkAja**, serta **Rekening Bank Nasional** (BCA, BRI, Mandiri, BNI, dll.) terhadap riwayat laporan penipuan. Dilengkapi deteksi operator seluler otomatis (HLR Lookup) dan kanal pelaporan komunitas. |
+| 🧠 **01** | **Analisis Chat & Screenshot dengan AI** | Menganalisis teks dan gambar dengan provider AI yang dikonfigurasi, seperti Gemini, OpenAI, atau Groq (tergantung dukungan endpoint dan konfigurasi). |
+| 🏦 **02** | **Cek E-Wallet & Rekening** | Memeriksa nomor terhadap data contoh/mirror lokal SADAR dan, bila dikonfigurasi, API eksternal. Tersedia tautan untuk verifikasi dan pelaporan melalui kanal resmi. |
 | 🛡️ **03** | **Multi-Engine Link Scanner (Zero-Click)** | Memindai URL secara *real-time* melalui 4 lapisan pertahanan simultan: **Google Safe Browsing v4**, **Cloudflare 1.1.1.2 Malware DNS**, **abuse.ch URLhaus Threat Feed**, dan **AI Threat Intelligence**. |
 | 🎯 **04** | **Interactive Scenario Decision Lab** | Laboratorium simulasi interaktif dengan 4 skenario kejahatan siber paling marak (*Kurir APK, Call Center Palsu, QRIS Quishing, Typosquatting*) lengkap dengan panduan mitigasi dan pemulihan darurat (*Incident Response*). |
 | 🎮 **05** | **SADAR Run (Cyber Arcade Minigame)** | Permainan web 2D berbasis **HTML5 Canvas** yang melatih ketangkasan kognitif dan visual pengguna dalam menghindari jebakan *trojan/phishing* sembari mengumpulkan perisai autentikasi dua faktor (**2FA**). |
-| 📡 **06** | **Real-Time Telemetry & Local Persistence** | Indikator diagnostik jaringan secara langsung (*Online/Offline Telemetry*) serta pencatatan metrik interaksi keamanan komunitas yang tersimpan aman di *Local Storage* tanpa melanggar privasi pengguna. |
+| 📡 **06** | **Status Koneksi & Preferensi Lokal** | Menampilkan status koneksi dan menyimpan sebagian preferensi atau statistik penggunaan di browser. |
 
 ---
 
@@ -134,8 +134,8 @@ flowchart TD
     %% Alur 2: Cek E-Wallet & Rekening
     Gateway -->|2. No. E-Wallet / Bank| FinMod[Modul Cek E-Wallet & Rekening]:::coreNode
     FinMod --> NormPhone[Normalisasi Nomor & Deteksi Operator Seluler]:::coreNode
-    NormPhone --> MirrorDB[(🗄️ Basis Data Mirror CekRekening & Komunitas)]:::aiNode
-    MirrorDB --> Verdict2([📋 Status Riwayat Laporan + Jembatan CekRekening.id]):::verdictNode
+    NormPhone --> MirrorDB[(🗄️ Data Contoh SADAR / API Mirror Opsional)]:::aiNode
+    MirrorDB --> Verdict2([📋 Status Hasil + Tautan Verifikasi Resmi]):::verdictNode
 
     %% Alur 3: Pemindai Link
     Gateway -->|3. Alamat URL| URLMod[Modul Pemindai Tautan]:::coreNode
@@ -149,3 +149,68 @@ flowchart TD
     %% Alur 4: Edukasi & Game
     Gateway -->|4. Edukasi Interaktif| EduMod[Simulasi Skenario & SADAR Run 2D]:::coreNode
     EduMod --> Verdict4([🏆 Peningkatan Literasi & Statistik Komunitas]):::verdictNode
+```
+
+## 🛠️ Teknologi
+
+- **Aplikasi web:** Next.js 16, React 19, TypeScript, dan Tailwind CSS.
+- **API lokal:** Express.js; dijalankan terpisah dari Next.js saat pengembangan.
+- **Integrasi opsional:** provider AI, Google Safe Browsing, dan API mirror cek rekening.
+
+## ⚡ Menjalankan SADAR di Lokal
+
+### Prasyarat
+
+- [Git](https://git-scm.com/downloads)
+- [Node.js](https://nodejs.org/) versi **20.9 atau lebih baru** (npm disertakan bersama Node.js)
+
+### Clone dan instal dependency
+
+Jalankan perintah berikut di terminal:
+
+```bash
+git clone https://github.com/Rio3zN9G/Sistem-Analisis-Data-Antisipasi-Risiko.git
+cd Sistem-Analisis-Data-Antisipasi-Risiko
+npm install
+```
+
+### Konfigurasi API (opsional)
+
+Aplikasi dapat dijalankan tanpa API key, tetapi fitur yang bergantung pada layanan eksternal mungkin tidak aktif. Untuk mengaktifkannya, buat file `.env` di folder utama proyek dan isi hanya dengan key yang Anda miliki:
+
+```env
+GEMINI_API_KEY=
+GEMINI_MODEL=gemini-3-flash-preview
+OPENAI_API_KEY=
+GROQ_API_KEY=
+GOOGLE_SAFE_BROWSING_API_KEY=
+CEKREKENING_API_URL=
+CEKREKENING_API_KEY=
+```
+
+Simpan key rahasia hanya di `.env` lokal atau pengaturan environment hosting. Jangan menaruh key di source code, mengirimkannya lewat chat, atau menggunakan prefix `NEXT_PUBLIC_` untuk key rahasia. Jangan commit file `.env`.
+
+### Jalankan aplikasi
+
+```bash
+npm run dev
+```
+
+Perintah tersebut menjalankan Next.js dan API Express secara bersamaan. Buka **http://localhost:3000** untuk aplikasi. API Express berjalan pada **http://localhost:4000**; endpoint pemeriksaan kesehatannya adalah **http://localhost:4000/api/health**.
+
+Untuk menghentikan server, tekan `Ctrl+C` di terminal. Jika ingin membuat build produksi lokal, jalankan `npm run build`; perintah `npm start` menjalankan server produksi setelah build selesai.
+
+## 🏦 Catatan Integrasi Data Cek Rekening
+
+Fitur cek rekening SADAR **bukan koneksi langsung ke database internal atau API resmi Komdigi**. Dalam konfigurasi bawaan, aplikasi menggunakan sejumlah record contoh untuk pengembangan dan laporan yang dikirim pengguna selama proses aplikasi berjalan. Record contoh bukan laporan resmi yang telah diverifikasi; ganti atau hapus sebelum penggunaan publik. Data laporan runtime disimpan di memori, sehingga tidak dijamin tetap ada setelah server dimulai ulang.
+
+Integrasi ke sumber eksternal hanya dilakukan jika pemilik proyek mengisi `CEKREKENING_API_URL` dan, bila diwajibkan oleh penyedia, `CEKREKENING_API_KEY` dengan endpoint yang memang berhak digunakan. Endpoint tersebut menerima jenis akun, penyedia, dan nomor akun yang sudah dinormalisasi. Label sumber internal SADAR atau kata “mirror” tidak membuktikan bahwa data berasal dari Komdigi. Pastikan ada izin, dasar penggunaan, perlindungan data, dan format API yang sesuai sebelum menghubungkan layanan apa pun; jangan menganggap data contoh atau hasil mirror sebagai data resmi Komdigi.
+
+Gunakan hasil SADAR sebagai **indikasi awal**, bukan bukti bahwa seseorang melakukan penipuan. Status “belum dilaporkan” juga tidak menjamin akun aman. Verifikasi mandiri melalui [CekRekening.id](https://cekrekening.id/periksa-rekening), dan gunakan [AduanNomor.id](https://aduannomor.id) untuk kanal pelaporan nomor telepon. Jangan mengirim uang, OTP, PIN, atau kata sandi hanya berdasarkan hasil pengecekan.
+
+## ⚖️ Catatan Penggunaan
+
+- Hasil analisis otomatis dapat keliru atau tidak lengkap; lakukan verifikasi tambahan sebelum mengambil keputusan.
+- Jangan mengunggah data pribadi, bukti transaksi, atau tangkapan layar sensitif kecuali diperlukan dan Anda memahami layanan pihak ketiga yang digunakan.
+- API key dan layanan pihak ketiga dapat memiliki biaya, batas kuota, serta ketentuan penggunaan masing-masing.
+- Repository ini tidak menyatakan afiliasi atau dukungan resmi dari Komdigi maupun penyedia layanan eksternal yang disebutkan.
