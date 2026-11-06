@@ -85,7 +85,7 @@ Di tengah pesatnya transformasi digital di Indonesia, masyarakat menghadapi berb
 - 💸 **Penipuan transaksi fiktif** melalui nomor E-Wallet prabayar dan rekening penampung.
 
 **SADAR (Sistem Analisis Data & Antisipasi Risiko)** hadir sebagai garda pertahanan pertama yang dapat diakses langsung di:
-👉 **[https://sadar-seven.vercel.app](https://sadar-seven.vercel.app)**
+👉 **[https://ristek.link/sadar](https://ristek.link/sadar)**
 
 Melalui pendekatan **Zero-Click Threat Analysis** dan **AI Vision**, SADAR memberdayakan pengguna untuk:
 1. **Mendeteksi manipulasi chat & tangkapan layar (screenshot)** secara otomatis sebelum terperdaya instruksi pelaku.
