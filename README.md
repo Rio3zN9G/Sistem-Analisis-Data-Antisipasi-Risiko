@@ -74,7 +74,7 @@ Platform **SADAR** dirancang, direkayasa, dan dikembangkan oleh tim mahasiswa **
 | Peran & Tanggung Jawab | Profil Pengembang | Fokus Rekayasa & Kontribusi Utama |
 | :--- | :--- | :--- |
 | **Team Leader**<br/>*Lead Full-Stack & AI Architecture* | **Ario Zulkaisi Nubli**<br/>*(Universitas Indonesia)* | • Orkestrasi **Google Gemini Vision OCR** & pipeline LLM fallback<br/>• Integrasi multi-engine **Safe Browsing v4**, Cloudflare DNS & URLhaus<br/>• Perancangan arsitektur **Next.js App Router**, server kustom & heuristik penipuan |
-| **Co-Creator**<br/>*Lead UI/UX & Interactive Engineering* | **Aisyah Azka Salsabila**<br/>*(Universitas Indonesia)* | • Asisten erancangan desain visual<br/><br/>•  |
+| **Co-Creator**<br/>*Lead UI/UX & Interactive Engineering* | **Aisyah Azka Salsabila**<br/>*(Universitas Indonesia)* | • Asisten erancangan desain visual<br/><br/>  |
 
 ---
 
